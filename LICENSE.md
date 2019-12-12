@@ -1,6 +1,9 @@
-﻿The MIT License
+﻿License - Below is the license From original fork, the changes in the current fork will be also subject to the same License
+ 
+ The MIT License
 
-Copyright (c) 2004-2014 (ה'תשס"ד -ה'תשע"ה) daniel levanon (daniellevanon@gmail.com)
+Copyright for the original fork (c) 2004-2014 (ה'תשס"ד -ה'תשע"ה) daniel levanon (daniellevanon@gmail.com)
+Copyright for the objects added in the current fork (c) 2019 Gidon Marcus - Hydro IT (code@H2IT.UK) 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
