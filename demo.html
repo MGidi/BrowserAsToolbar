@@ -1,25 +1,15 @@
 <html>
-
-<head>
-	<meta charset="UTF-8">
-	<title>heDate.js demo</title>
-</head>
-
-
-<body>
-
-	<h1 id='date'></h1>
-	
-	<div><a href='http://he-date.info/site.html'>project site</a></div>
-	<div><a href='https://github.com/daniellevanon/he-date'>project in gitHub</a></div>
-	
-	<script src='heDate.min.js'></script>
-	<script>
-		document.getElementById('date').innerHTML=(new HeDate()).toString();
-	</script>
-
-</body>
-
-
-
+	<head>
+		<meta charset="UTF-8">
+		<title>BrowserAsToolbar - Demo file </title>
+	</head>
+	<body bgcolor="black" dir="rtl">
+		<font color="white" size="10" id="he_date"></font><font color="white" size="10" id="date_time"></font>
+		<script src="heDate.min.js"></script>
+		<script src="date_time.js"></script>
+		<script>
+			date_time('date_time');
+			//document.getElementById('he_date').innerHTML=(new HeDate()).toString();   //i have inserted that original line from he-date into the date_time js to have it recalculate every sec and not just on load
+		</script>
+	</body>
 </html>
